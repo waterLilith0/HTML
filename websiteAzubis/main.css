@@ -1,0 +1,85 @@
+body {
+  background-image: url("pics/lotrmap.png");
+  font-size: 2vh;
+}
+
+#topbar {
+  z-index: 9999;
+  height: 8vh;
+  background-color: #333333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#topbar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#topbar li {
+  float: left;
+}
+
+#topbar :hover {
+  background-color: black;
+  color: white;
+}
+
+#topbar a {
+  padding: 2.81vh;
+  background-color: #111111;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+#view {
+  width: 85%;
+  top: 10vh;
+  background-color: #555555;
+  opacity: 95%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#text {
+  padding: 2vh;
+}
+
+table {
+  margin: auto;
+  border-style: dashed;
+  height: 1vh;
+  width: 60vw;
+}
+
+td {
+  padding: 2vw;
+}
+
+#quickUp {
+  list-style-type: none;
+  position: fixed;
+  right: 2vw;
+  bottom: 2vh;
+}
+
+#quickUp li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#quickUp a {
+  padding: 2vh;
+  background-color: #333333;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}

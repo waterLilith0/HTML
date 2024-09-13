@@ -1,0 +1,14 @@
+#aboutView {
+  background-color: black;
+  color: white;
+  top: 7vh;
+  margin: auto;
+  position: relative;
+  padding: 2vw;
+  margin: 2vh;
+}
+
+td {
+  text-align: center;
+  text-wrap:nowrap;
+}
